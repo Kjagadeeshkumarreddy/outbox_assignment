@@ -1,0 +1,3 @@
+@echo off
+echo Starting ReachInbox Backend with Nodemon...
+wsl -d Ubuntu -e bash -c "fuser -k 3001/tcp 2>/dev/null || true; cd /mnt/c/projects/nxt_task/backend && npm run dev"

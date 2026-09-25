@@ -1,0 +1,3 @@
+@echo off
+echo Starting ReachInbox Frontend Dashboard...
+wsl -d Ubuntu -e bash -c "cd /mnt/c/projects/nxt_task/frontend && npm run dev"
